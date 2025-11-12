@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F435BCDE2EBD6FA8009042A8 /* WorkoutDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCDA2EBD6FA8009042A8 /* WorkoutDayView.swift */; };
+		F435BCDF2EBD6FA8009042A8 /* WorkoutDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCB92EBD6FA8009042A8 /* WorkoutDay.swift */; };
+		F435BCE02EBD6FA8009042A8 /* MovementTagPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCB42EBD6FA8009042A8 /* MovementTagPills.swift */; };
+		F435BCE12EBD6FA8009042A8 /* MovementLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD32EBD6FA8009042A8 /* MovementLibraryView.swift */; };
+		F435BCE22EBD6FA8009042A8 /* MovementProgressChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD02EBD6FA8009042A8 /* MovementProgressChart.swift */; };
+		F435BCE32EBD6FA8009042A8 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC22EBD6FA8009042A8 /* Date+Extensions.swift */; };
+		F435BCE42EBD6FA8009042A8 /* RepTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCBE2EBD6FA8009042A8 /* RepTrackApp.swift */; };
+		F435BCE52EBD6FA8009042A8 /* MovementLibraryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC62EBD6FA8009042A8 /* MovementLibraryVM.swift */; };
+		F435BCE62EBD6FA8009042A8 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCDC2EBD6FA8009042A8 /* RootTabView.swift */; };
+		F435BCE72EBD6FA8009042A8 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCB52EBD6FA8009042A8 /* PrimaryButton.swift */; };
+		F435BCE82EBD6FA8009042A8 /* SetEditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD92EBD6FA8009042A8 /* SetEditorRow.swift */; };
+		F435BCE92EBD6FA8009042A8 /* WorkoutMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCBA2EBD6FA8009042A8 /* WorkoutMovement.swift */; };
+		F435BCEA2EBD6FA8009042A8 /* ChartsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC52EBD6FA8009042A8 /* ChartsVM.swift */; };
+		F435BCEB2EBD6FA8009042A8 /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCCC2EBD6FA8009042A8 /* MonthHeaderView.swift */; };
+		F435BCEC2EBD6FA8009042A8 /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC42EBD6FA8009042A8 /* CalendarVM.swift */; };
+		F435BCED2EBD6FA8009042A8 /* TemplateEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD52EBD6FA8009042A8 /* TemplateEditorView.swift */; };
+		F435BCEE2EBD6FA8009042A8 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCB72EBD6FA8009042A8 /* Movement.swift */; };
+		F435BCF02EBD6FA8009042A8 /* WorkoutDayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC82EBD6FA8009042A8 /* WorkoutDayVM.swift */; };
+		F435BCF12EBD6FA8009042A8 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCCA2EBD6FA8009042A8 /* CalendarView.swift */; };
+		F435BCF22EBD6FA8009042A8 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCBB2EBD6FA8009042A8 /* WorkoutTemplate.swift */; };
+		F435BCF32EBD6FA8009042A8 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD62EBD6FA8009042A8 /* TemplatesView.swift */; };
+		F435BCF42EBD6FA8009042A8 /* TemplatesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC72EBD6FA8009042A8 /* TemplatesVM.swift */; };
+		F435BCF52EBD6FA8009042A8 /* SeedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCC02EBD6FA8009042A8 /* SeedDataService.swift */; };
+		F435BCF62EBD6FA8009042A8 /* MovementRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD82EBD6FA8009042A8 /* MovementRowView.swift */; };
+		F435BCF72EBD6FA8009042A8 /* ChartsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCCE2EBD6FA8009042A8 /* ChartsRootView.swift */; };
+		F435BCF82EBD6FA8009042A8 /* SetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCB82EBD6FA8009042A8 /* SetEntry.swift */; };
+		F435BCFA2EBD6FA8009042A8 /* MovementEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCD22EBD6FA8009042A8 /* MovementEditorView.swift */; };
+		F435BCFB2EBD6FA8009042A8 /* DayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435BCCB2EBD6FA8009042A8 /* DayCellView.swift */; };
+		F435BCFC2EBD6FA8009042A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F435BCBD2EBD6FA8009042A8 /* README.md */; };
+		F4B8C4B52ED17B5C0042ED1B /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8C4B42ED17B5C0042ED1B /* Color+Extensions.swift */; };
+		F4CA9A082ED1A1E900A7C743 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA9A072ED1A1E900A7C743 /* AppColors.swift */; };
+		F4D1255F2ED1B3B500CBE823 /* WeeklyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D1255E2ED1B3B500CBE823 /* WeeklyProgressView.swift */; };
+		F4D125612ED1B3FD00CBE823 /* WeeklyProgressSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D125602ED1B3FD00CBE823 /* WeeklyProgressSetupView.swift */; };
+		F4D5A27F2ED1E8A900E0E9F7 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5A27E2ED1E8A900E0E9F7 /* ThemeManager.swift */; };
+		F4D5A2812ED1EA0500E0E9F7 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5A2802ED1EA0500E0E9F7 /* ThemePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F435BCA62EBD6F8E009042A8 /* RepTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F435BCB42EBD6FA8009042A8 /* MovementTagPills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementTagPills.swift; sourceTree = "<group>"; };
+		F435BCB52EBD6FA8009042A8 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		F435BCB72EBD6FA8009042A8 /* Movement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
+		F435BCB82EBD6FA8009042A8 /* SetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetEntry.swift; sourceTree = "<group>"; };
+		F435BCB92EBD6FA8009042A8 /* WorkoutDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDay.swift; sourceTree = "<group>"; };
+		F435BCBA2EBD6FA8009042A8 /* WorkoutMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutMovement.swift; sourceTree = "<group>"; };
+		F435BCBB2EBD6FA8009042A8 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
+		F435BCBD2EBD6FA8009042A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F435BCBE2EBD6FA8009042A8 /* RepTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTrackApp.swift; sourceTree = "<group>"; };
+		F435BCC02EBD6FA8009042A8 /* SeedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedDataService.swift; sourceTree = "<group>"; };
+		F435BCC22EBD6FA8009042A8 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F435BCC42EBD6FA8009042A8 /* CalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVM.swift; sourceTree = "<group>"; };
+		F435BCC52EBD6FA8009042A8 /* ChartsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsVM.swift; sourceTree = "<group>"; };
+		F435BCC62EBD6FA8009042A8 /* MovementLibraryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementLibraryVM.swift; sourceTree = "<group>"; };
+		F435BCC72EBD6FA8009042A8 /* TemplatesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesVM.swift; sourceTree = "<group>"; };
+		F435BCC82EBD6FA8009042A8 /* WorkoutDayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDayVM.swift; sourceTree = "<group>"; };
+		F435BCCA2EBD6FA8009042A8 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F435BCCB2EBD6FA8009042A8 /* DayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCellView.swift; sourceTree = "<group>"; };
+		F435BCCC2EBD6FA8009042A8 /* MonthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
+		F435BCCE2EBD6FA8009042A8 /* ChartsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsRootView.swift; sourceTree = "<group>"; };
+		F435BCD02EBD6FA8009042A8 /* MovementProgressChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementProgressChart.swift; sourceTree = "<group>"; };
+		F435BCD22EBD6FA8009042A8 /* MovementEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementEditorView.swift; sourceTree = "<group>"; };
+		F435BCD32EBD6FA8009042A8 /* MovementLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementLibraryView.swift; sourceTree = "<group>"; };
+		F435BCD52EBD6FA8009042A8 /* TemplateEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateEditorView.swift; sourceTree = "<group>"; };
+		F435BCD62EBD6FA8009042A8 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		F435BCD82EBD6FA8009042A8 /* MovementRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementRowView.swift; sourceTree = "<group>"; };
+		F435BCD92EBD6FA8009042A8 /* SetEditorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetEditorRow.swift; sourceTree = "<group>"; };
+		F435BCDA2EBD6FA8009042A8 /* WorkoutDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDayView.swift; sourceTree = "<group>"; };
+		F435BCDC2EBD6FA8009042A8 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		F4B8C4B42ED17B5C0042ED1B /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		F4CA9A072ED1A1E900A7C743 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		F4D1255E2ED1B3B500CBE823 /* WeeklyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyProgressView.swift; sourceTree = "<group>"; };
+		F4D125602ED1B3FD00CBE823 /* WeeklyProgressSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyProgressSetupView.swift; sourceTree = "<group>"; };
+		F4D5A27E2ED1E8A900E0E9F7 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		F4D5A2802ED1EA0500E0E9F7 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F435BCA82EBD6F8E009042A8 /* RepTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RepTrack;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F435BCA32EBD6F8E009042A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F435BC9D2EBD6F8E009042A8 = {
+			isa = PBXGroup;
+			children = (
+				F435BCA82EBD6F8E009042A8 /* RepTrack */,
+				F435BCA72EBD6F8E009042A8 /* Products */,
+				F435BCB62EBD6FA8009042A8 /* Components */,
+				F435BCBC2EBD6FA8009042A8 /* Models */,
+				F435BCBD2EBD6FA8009042A8 /* README.md */,
+				F435BCBE2EBD6FA8009042A8 /* RepTrackApp.swift */,
+				F435BCC12EBD6FA8009042A8 /* Services */,
+				F435BCC32EBD6FA8009042A8 /* Utils */,
+				F435BCC92EBD6FA8009042A8 /* ViewModels */,
+				F435BCDD2EBD6FA8009042A8 /* Views */,
+			);
+			sourceTree = "<group>";
+		};
+		F435BCA72EBD6F8E009042A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCA62EBD6F8E009042A8 /* RepTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F435BCB62EBD6FA8009042A8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCB42EBD6FA8009042A8 /* MovementTagPills.swift */,
+				F435BCB52EBD6FA8009042A8 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F435BCBC2EBD6FA8009042A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCB72EBD6FA8009042A8 /* Movement.swift */,
+				F435BCB82EBD6FA8009042A8 /* SetEntry.swift */,
+				F435BCB92EBD6FA8009042A8 /* WorkoutDay.swift */,
+				F435BCBA2EBD6FA8009042A8 /* WorkoutMovement.swift */,
+				F435BCBB2EBD6FA8009042A8 /* WorkoutTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F435BCC12EBD6FA8009042A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCC02EBD6FA8009042A8 /* SeedDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F435BCC32EBD6FA8009042A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCC22EBD6FA8009042A8 /* Date+Extensions.swift */,
+				F4B8C4B42ED17B5C0042ED1B /* Color+Extensions.swift */,
+				F4CA9A072ED1A1E900A7C743 /* AppColors.swift */,
+				F4D5A27E2ED1E8A900E0E9F7 /* ThemeManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F435BCC92EBD6FA8009042A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCC42EBD6FA8009042A8 /* CalendarVM.swift */,
+				F435BCC52EBD6FA8009042A8 /* ChartsVM.swift */,
+				F435BCC62EBD6FA8009042A8 /* MovementLibraryVM.swift */,
+				F435BCC72EBD6FA8009042A8 /* TemplatesVM.swift */,
+				F435BCC82EBD6FA8009042A8 /* WorkoutDayVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F435BCCD2EBD6FA8009042A8 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCCA2EBD6FA8009042A8 /* CalendarView.swift */,
+				F435BCCB2EBD6FA8009042A8 /* DayCellView.swift */,
+				F435BCCC2EBD6FA8009042A8 /* MonthHeaderView.swift */,
+				F4D1255E2ED1B3B500CBE823 /* WeeklyProgressView.swift */,
+				F4D125602ED1B3FD00CBE823 /* WeeklyProgressSetupView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		F435BCD12EBD6FA8009042A8 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCCE2EBD6FA8009042A8 /* ChartsRootView.swift */,
+				F435BCD02EBD6FA8009042A8 /* MovementProgressChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		F435BCD42EBD6FA8009042A8 /* Movements */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCD22EBD6FA8009042A8 /* MovementEditorView.swift */,
+				F435BCD32EBD6FA8009042A8 /* MovementLibraryView.swift */,
+			);
+			path = Movements;
+			sourceTree = "<group>";
+		};
+		F435BCD72EBD6FA8009042A8 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCD52EBD6FA8009042A8 /* TemplateEditorView.swift */,
+				F435BCD62EBD6FA8009042A8 /* TemplatesView.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		F435BCDB2EBD6FA8009042A8 /* WorkoutDay */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCD82EBD6FA8009042A8 /* MovementRowView.swift */,
+				F435BCD92EBD6FA8009042A8 /* SetEditorRow.swift */,
+				F435BCDA2EBD6FA8009042A8 /* WorkoutDayView.swift */,
+			);
+			path = WorkoutDay;
+			sourceTree = "<group>";
+		};
+		F435BCDD2EBD6FA8009042A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F435BCCD2EBD6FA8009042A8 /* Calendar */,
+				F435BCD12EBD6FA8009042A8 /* Charts */,
+				F435BCD42EBD6FA8009042A8 /* Movements */,
+				F435BCD72EBD6FA8009042A8 /* Templates */,
+				F435BCDB2EBD6FA8009042A8 /* WorkoutDay */,
+				F435BCDC2EBD6FA8009042A8 /* RootTabView.swift */,
+				F4D5A2822ED1EA1F00E0E9F7 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4D5A2822ED1EA1F00E0E9F7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5A2802ED1EA0500E0E9F7 /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F435BCA52EBD6F8E009042A8 /* RepTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F435BCB12EBD6F91009042A8 /* Build configuration list for PBXNativeTarget "RepTrack" */;
+			buildPhases = (
+				F435BCA22EBD6F8E009042A8 /* Sources */,
+				F435BCA32EBD6F8E009042A8 /* Frameworks */,
+				F435BCA42EBD6F8E009042A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F435BCA82EBD6F8E009042A8 /* RepTrack */,
+			);
+			name = RepTrack;
+			packageProductDependencies = (
+			);
+			productName = RepTrack;
+			productReference = F435BCA62EBD6F8E009042A8 /* RepTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F435BC9E2EBD6F8E009042A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					F435BCA52EBD6F8E009042A8 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+				};
+			};
+			buildConfigurationList = F435BCA12EBD6F8E009042A8 /* Build configuration list for PBXProject "RepTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F435BC9D2EBD6F8E009042A8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F435BCA72EBD6F8E009042A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F435BCA52EBD6F8E009042A8 /* RepTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F435BCA42EBD6F8E009042A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F435BCFC2EBD6FA8009042A8 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F435BCA22EBD6F8E009042A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F435BCDE2EBD6FA8009042A8 /* WorkoutDayView.swift in Sources */,
+				F435BCDF2EBD6FA8009042A8 /* WorkoutDay.swift in Sources */,
+				F435BCE02EBD6FA8009042A8 /* MovementTagPills.swift in Sources */,
+				F435BCE12EBD6FA8009042A8 /* MovementLibraryView.swift in Sources */,
+				F435BCE22EBD6FA8009042A8 /* MovementProgressChart.swift in Sources */,
+				F435BCE32EBD6FA8009042A8 /* Date+Extensions.swift in Sources */,
+				F435BCE42EBD6FA8009042A8 /* RepTrackApp.swift in Sources */,
+				F435BCE52EBD6FA8009042A8 /* MovementLibraryVM.swift in Sources */,
+				F435BCE62EBD6FA8009042A8 /* RootTabView.swift in Sources */,
+				F435BCE72EBD6FA8009042A8 /* PrimaryButton.swift in Sources */,
+				F435BCE82EBD6FA8009042A8 /* SetEditorRow.swift in Sources */,
+				F435BCE92EBD6FA8009042A8 /* WorkoutMovement.swift in Sources */,
+				F435BCEA2EBD6FA8009042A8 /* ChartsVM.swift in Sources */,
+				F435BCEB2EBD6FA8009042A8 /* MonthHeaderView.swift in Sources */,
+				F435BCEC2EBD6FA8009042A8 /* CalendarVM.swift in Sources */,
+				F435BCED2EBD6FA8009042A8 /* TemplateEditorView.swift in Sources */,
+				F435BCEE2EBD6FA8009042A8 /* Movement.swift in Sources */,
+				F435BCF02EBD6FA8009042A8 /* WorkoutDayVM.swift in Sources */,
+				F435BCF12EBD6FA8009042A8 /* CalendarView.swift in Sources */,
+				F435BCF22EBD6FA8009042A8 /* WorkoutTemplate.swift in Sources */,
+				F435BCF32EBD6FA8009042A8 /* TemplatesView.swift in Sources */,
+				F435BCF42EBD6FA8009042A8 /* TemplatesVM.swift in Sources */,
+				F435BCF52EBD6FA8009042A8 /* SeedDataService.swift in Sources */,
+				F435BCF62EBD6FA8009042A8 /* MovementRowView.swift in Sources */,
+				F435BCF72EBD6FA8009042A8 /* ChartsRootView.swift in Sources */,
+				F4B8C4B52ED17B5C0042ED1B /* Color+Extensions.swift in Sources */,
+				F4CA9A082ED1A1E900A7C743 /* AppColors.swift in Sources */,
+				F4D5A27F2ED1E8A900E0E9F7 /* ThemeManager.swift in Sources */,
+				F435BCF82EBD6FA8009042A8 /* SetEntry.swift in Sources */,
+				F435BCFA2EBD6FA8009042A8 /* MovementEditorView.swift in Sources */,
+				F435BCFB2EBD6FA8009042A8 /* DayCellView.swift in Sources */,
+				F4D1255F2ED1B3B500CBE823 /* WeeklyProgressView.swift in Sources */,
+				F4D125612ED1B3FD00CBE823 /* WeeklyProgressSetupView.swift in Sources */,
+				F4D5A2812ED1EA0500E0E9F7 /* ThemePickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F435BCAF2EBD6F91009042A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UR4846WBRP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F435BCB02EBD6F91009042A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UR4846WBRP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F435BCB22EBD6F91009042A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UR4846WBRP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Axel-VandenHeuvel.RepTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F435BCB32EBD6F91009042A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UR4846WBRP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Axel-VandenHeuvel.RepTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F435BCA12EBD6F8E009042A8 /* Build configuration list for PBXProject "RepTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F435BCAF2EBD6F91009042A8 /* Debug */,
+				F435BCB02EBD6F91009042A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F435BCB12EBD6F91009042A8 /* Build configuration list for PBXNativeTarget "RepTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F435BCB22EBD6F91009042A8 /* Debug */,
+				F435BCB32EBD6F91009042A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F435BC9E2EBD6F8E009042A8 /* Project object */;
+}
